@@ -2,6 +2,7 @@ import React from 'react'
 
 const Navbar = (props) => {
   const toggleMode = e => {
+    console.log("props:", props);
     e.preventDefault()
     props.setDarkMode(!props.darkMode)
   }
